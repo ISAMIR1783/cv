@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(235, 235, 241);
+}
+header{
+    width: 100vw;
+    display: flex;
+    height: 300px;
+}
+
+header img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    }
+aside{
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    height: 200px;
+
+}
+.nameisamir{
+    width: auto;
+    background-color: #6b787c;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    font-style: oblique;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    align-self:center;
+    padding: 100px;
+
+}
+.experiencia{
+
+    width: auto;
+    background-color: #6b787c;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    font-style: oblique;
+    font-size: 1.5rem;
+    justify-content:last baseline;
+    align-self:flex-end;
+    padding: 100px;
+}
+
+.nameContainer h1{
+    align-self: flex-start;
+}
+
+.contactContainer{
+    width: auto;
+    background-color: #d4e6f4;
+}
+.experiencia{
+    width: auto;
+    background-color: #257c97;
+    color: white;
+    display: flex;
+    font-style: oblique;
+    font-size: 1.5rem;
+    padding: 100px;
+    
+}
